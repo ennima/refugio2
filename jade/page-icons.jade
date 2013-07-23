@@ -1,0 +1,552 @@
+!!! 5
+html.no-js
+head
+  meta(charset='utf-8')
+    title FOLDER TEMPLATE
+    //if lt IE 9
+      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+    link(rel='stylesheet', media='all', href='css/style.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    //
+       Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ 
+    //
+       JS 
+    script(src='js/jquery-1.7.1.min.js')
+    script(src='js/custom.js')
+    script(src='js/tabs.js')
+    script(src='js/css3-mediaqueries.js')
+    script(src='js/jquery.columnizer.min.js')
+    //
+       Isotope 
+    script(src='js/jquery.isotope.min.js')
+    //
+       Lof slider 
+    script(src='js/jquery.easing.js')
+    script(src='js/lof-slider.js')
+    link(rel='stylesheet', href='css/lof-slider.css', media='all')
+    //
+       ENDS slider 
+    //
+       Tweet 
+    link(rel='stylesheet', href='css/jquery.tweet.css', media='all')
+    script(src='js/tweet/jquery.tweet.js')
+    //
+       ENDS Tweet 
+    //
+       superfish 
+    link(rel='stylesheet', media='screen', href='css/superfish.css')
+    script(src='js/superfish-1.4.8/js/hoverIntent.js')
+    script(src='js/superfish-1.4.8/js/superfish.js')
+    script(src='js/superfish-1.4.8/js/supersubs.js')
+    //
+       ENDS superfish 
+    //
+       prettyPhoto 
+    script(src='js/prettyPhoto/js/jquery.prettyPhoto.js')
+    link(rel='stylesheet', href='js/prettyPhoto/css/prettyPhoto.css', media='screen')
+    //
+       ENDS prettyPhoto 
+    //
+       poshytip 
+    link(rel='stylesheet', href='js/poshytip-1.1/src/tip-twitter/tip-twitter.css')
+    link(rel='stylesheet', href='js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css')
+    script(src='js/poshytip-1.1/src/jquery.poshytip.min.js')
+    //
+       ENDS poshytip 
+    //
+       JCarousel 
+    script(type='text/javascript', src='js/jquery.jcarousel.min.js')
+    link(rel='stylesheet', media='screen', href='css/carousel.css')
+    //
+       ENDS JCarousel 
+    //
+       GOOGLE FONTS 
+    link(href='http://fonts.googleapis.com/css?family=Voltaire', rel='stylesheet', type='text/css')
+    //
+       modernizr 
+    script(src='js/modernizr.js')
+    //
+       SKIN 
+    link(rel='stylesheet', media='all', href='css/skin.css')
+    //
+       Less framework 
+    link(rel='stylesheet', media='all', href='css/lessframework.css')
+    //
+       jplayer 
+    link(href='player-skin/jplayer-black-and-yellow.css', rel='stylesheet', type='text/css')
+    script(type='text/javascript', src='js/jquery.jplayer.min.js')
+    //
+       flexslider 
+    link(rel='stylesheet', href='css/flexslider.css')
+    script(src='js/jquery.flexslider.js')
+    //
+       reply move form 
+    script(src='js/moveform.js')
+  body.page
+    //
+       HEADER 
+    header
+      .wrapper.cf
+        #logo
+          a(href='index.html')
+            img(src='img/logo.png', alt='Simpler')
+        //
+           nav 
+        ul#nav.sf-menu
+          li
+            a(href='index.html')
+              span HOME
+          li
+            a(href='blog.html') BLOG
+          li.current-menu-item
+            a(href='page.html') ABOUT
+            ul
+              li
+                a(href='page-elements.html') Elements
+              li
+                a(href='page-icons.html') Icons
+              li
+                a(href='page-typography.html') Typography
+          li
+            a(href='portfolio.html') WORK
+          li
+            a(href='contact.html') CONTACT
+        #combo-holder
+        //
+           ends nav 
+    //
+       ENDS HEADER 
+    //
+       MAIN 
+    #main
+      .wrapper.cf
+        //
+           page content
+        #page-content.cf
+          //
+             entry-content 
+          .entry-content.cf
+            h5
+              | Spice up your text boxes using this large set of icons. You can align them to the left or right.
+            br
+            //
+               left col 
+            .one-half
+              p
+                img.alignleft(src='img/mono-icons/arrow32.png', alt='arrow32', title='arrow32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/arrowright32.png', alt='arrowright32', title='arrowright32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/article32.png', title='article32.png', alt='article32')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/bag32.png', title='bag32.png', alt='bag32')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/bargraph32.png', title='bargraph32.png', alt='bargraph32')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/block32.png', title='block32.png', alt='block32')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/box32.png', title='box32.png', alt='')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/boxdownload32.png', title='boxdownload32.png', alt='')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/boxupload32.png', title='boxupload32.png', alt='')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/camera32.png', title='camera32.png', alt='')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/cameraminus32.png', title='cameraminus32.png', alt='cameraminus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/cameraplus32.png', title='cameraplus32.png', alt='cameraplus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/camerastar32.png', title='camerastar32.png', alt='camerastar32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/cardgame32.png', title='cardgame32.png', alt='cardgame32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/check32.png', title='check32.png', alt='check32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/circleleft32.png', title='circleleft32.png', alt='circleleft32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/circleright32.png', title='circleright32.png', alt='circleright32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/clock32.png', title='clock32.png', alt='clock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/comment32.png', title='comment32.png', alt='comment32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/commentblack32.png', title='commentblack32.png', alt='commentblack32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/contactbook32.png', title='contactbook32.png', alt='contactbook32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/contactcard32.png', title='contactcard32.png', alt='contactcard32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/cup32.png', title='cup32.png', alt='cup32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/download32.png', title='download32.png', alt='download32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/exchange32.png', title='exchange32.png', alt='exchange32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/folder32.png', title='folder32.png', alt='folder32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/folderblock32.png', title='folderblock32.png', alt='folderblock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/folderminus32.png', title='folderminus32.png', alt='folderminus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/folderplus32.png', title='folderplus32.png', alt='folderplus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/gear32.png', title='gear32.png', alt='gear32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/glitter32.png', title='glitter32.png', alt='glitter32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/heart32.png', title='heart32.png', alt='heart32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/home32.png', title='home32.png', alt='home32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/leftarrow32.png', title='leftarrow32.png', alt='leftarrow32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/leftturnarrow32.png', title='leftturnarrow32.png', alt='leftturnarrow32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/lightbulb32.png', title='lightbulb32.png', alt='lightbulb32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/linedpaper32.png', title='linedpaper32.png', alt='linedpaper32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/linedpapercheck32.png', title='linedpapercheck32.png', alt='linedpapercheck32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/linedpaperlock32.png', title='linedpaperlock32.png', alt='linedpaperlock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/linedpaperminus32.png', title='linedpaperminus32.png', alt='linedpaperminus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/linedpaperpencil32.png', title='linedpaperpencil32.png', alt='linedpaperpencil32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/linedpaperplus32.png', title='linedpaperplus32.png', alt='linedpaperplus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/lock32.png', title='lock32.png', alt='lock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/mail32.png', title='mail32.png', alt='mail32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/mailblock32.png', title='mailblock32.png', alt='mailblock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/mailminus32.png', title='mailminus32.png', alt='mailminus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/mailopened32.png', title='mailopened32.png', alt='mailopened32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/mailplus32.png', title='mailplus32.png', alt='mailplus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/mailstar32.png', title='mailstar32.png', alt='mailstar32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/mapleleaf32.png', title='mapleleaf32.png', alt='mapleleaf32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/melody32.png', title='melody32.png', alt='melody32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/minus32.png', title='minus32.png', alt='minus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/moneyreceipt32.png', title='moneyreceipt32.png', alt='moneyreceipt32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/monitor32.png', title='monitor32.png', alt='monitor32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+            //
+               ENDS left col 
+            //
+               right col 
+            .one-half.last
+              p
+                img.alignleft(src='img/mono-icons/mouse32.png', title='mouse32.png', alt='mouse32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/note32.png', title='note32.png', alt='note32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/notecheck32.png', title='notecheck32.png', alt='notecheck32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/notepencil32.png', title='notepencil32.png', alt='notepencil32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/paper32.png', title='paper32.png', alt='paper32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/papercheck32.png', title='papercheck32.png', alt='papercheck32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/paperheart32.png', title='paperheart32.png', alt='paperheart32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/paperlock32.png', title='paperlock32.png', alt='paperlock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/paperminus32.png', title='paperminus32.png', alt='paperminus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/papermusic32.png', title='papermusic32.png', alt='papermusic32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/paperpencil32.png', title='paperpencil32.png', alt='paperpencil32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/paperphoto32.png', title='paperphoto32.png', alt='paperphoto32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/paperplus32.png', title='paperplus32.png', alt='paperplus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/paperstar32.png', title='paperstar32.png', alt='paperstar32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/pencil32.png', title='pencil32.png', alt='pencil32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/pencilplus32.png', title='pencilplus32.png', alt='pencilplus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/phone32.png', title='phone32.png', alt='phone32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/phonebook32.png', title='phonebook32.png', alt='phonebook32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/plug32.png', title='plug32.png', alt='plug32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/plus32.png', title='plus32.png', alt='plus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/printer32.png', title='printer32.png', alt='printer32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/questionbook32.png', title='questionbook32.png', alt='questionbook32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/radio32.png', title='radio32.png', alt='radio32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/recycle32.png', title='recycle32.png', alt='recycle32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/risegraph32.png', title='risegraph32.png', alt='risegraph32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/rss32.png', title='rss32.png', alt='rss32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/scissors32.png', title='scissors32.png', alt='scissors32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/search32.png', title='search32.png', alt='search32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/shield32.png', title='shield32.png', alt='shield32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/shieldcross32.png', title='shieldcross32.png', alt='shieldcross32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/shoppingcart32.png', title='shoppingcart32.png', alt='shoppingcart32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/sleep32.png', title='sleep32.png', alt='sleep32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/slide32.png', title='slide32.png', alt='slide32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/smile32.png', title='smile32.png', alt='smile32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/spanner32.png', title='spanner32.png', alt='spanner32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/speaker32.png', title='speaker32.png', alt='speaker32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/speakermute32.png', title='speakermute32.png', alt='speakermute32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/star32.png', title='star32.png', alt='star32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/stop32.png', title='stop32.png', alt='stop32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/turnright32.png', title='turnright32.png', alt='turnright32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/unlock32.png', title='unlock32.png', alt='unlock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/upload32.png', title='upload32.png', alt='upload32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/user32.png', title='user32.png', alt='user32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/userblock32.png', title='userblock32.png', alt='userblock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/userminus32.png', title='userminus32.png', alt='userminus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/userplus32.png', title='userplus32.png', alt='userplus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/users32.png', title='users32.png', alt='users32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/usersblock32.png', title='usersblock32.png', alt='usersblock32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/usersminus32.png', title='usersminus32.png', alt='usersminus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/usersplus32.png', title='usersplus32.png', alt='usersplus32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/wand32.png', title='wand32.png', alt='wand32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/warning32.png', title='warning32.png', alt='warning32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/wordpress32.png', title='wordpress32.png', alt='wordpress32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+              p
+                img.alignleft(src='img/mono-icons/wrench32.png', title='wrench32.png', alt='wrench32.png')
+                | Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis  feugiat vitae.
+            .clearfix
+            //
+               ENDS right col 
+          //
+             ENDS entry content 
+        //
+           ENDS page content
+      //
+         ENDS WRAPPER 
+    //
+       ENDS MAIN 
+    //
+       FOOTER 
+    footer
+      .wrapper.cf
+        //
+           widgets 
+        ul.widget-cols.cf
+          li.first-col
+            .widget-block
+              h4 RECENT POSTS
+              .recent-post.cf
+                a.thumb(href='#')
+                  img(src='img/dummies/54x54.gif', alt='Post')
+                .post-head
+                  a(href='#') Pellentesque habitant morbi senectus
+                  span  March 12, 2011
+              .recent-post.cf
+                a.thumb(href='#')
+                  img(src='img/dummies/54x54.gif', alt='Post')
+                .post-head
+                  a(href='#') Pellentesque habitant morbi senectus
+                  span  March 12, 2011
+              .recent-post.cf
+                a.thumb(href='#')
+                  img(src='img/dummies/54x54.gif', alt='Post')
+                .post-head
+                  a(href='#') Pellentesque habitant morbi senectus
+                  span  March 12, 2011
+          li.second-col
+            .widget-block
+              h4 ABOUT
+              p
+                | Folder it's completely free this means you don't have to pay anything
+                a(href='http://luiszuno.com/blog/license', tar='tar') read license
+                | .
+              p
+                | Visit
+                a(href='http://templatecreme.com/') Template Creme
+                | and find the most beautiful free templates up to date.
+          li.third-col
+            .widget-block
+              #tweets.footer-col.tweet
+                h4 TWITTER WIDGET
+          li.fourth-col
+            .widget-block
+              h4 CATEGORIES
+              ul
+                li.cat-item
+                  a(href='#') Design
+                li.cat-item
+                  a(href='#') Photo
+                li.cat-item
+                  a(href='#') Art
+                li.cat-item
+                  a(href='#') Game
+                li.cat-item
+                  a(href='#') Film
+                li.cat-item
+                  a(href='#') TV
+        //
+           ENDS widgets 
+        //
+           bottom 
+        .footer-bottom
+          .left
+            | by
+            a(href='http://luiszuno.com') luiszuno.com
+          ul#social-bar.cf.sb
+            li
+              a.facebook(href='http://www.facebook.com', title='Become a fan') Facebbok
+            li
+              a.twitter(href='http://www.twitter.com', title='Follow my tweets')
+            li
+              a.plus(href='http://plus.google.com', title='Enter my circles')
+        //
+           ENDS bottom 
+    //
+       ENDS FOOTER 
