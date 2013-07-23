@@ -1,0 +1,276 @@
+!!! 5
+html.no-js
+head
+    meta(charset='utf-8')
+    title FOLDER TEMPLATE
+    //if lt IE 9
+      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+    link(rel='stylesheet', media='all', href='css/style.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    //
+       Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ 
+    //
+       JS 
+    script(src='js/jquery-1.7.1.min.js')
+    script(src='js/custom.js')
+    script(src='js/tabs.js')
+    script(src='js/css3-mediaqueries.js')
+    script(src='js/jquery.columnizer.min.js')
+    //
+       Isotope 
+    script(src='js/jquery.isotope.min.js')
+    //
+       Lof slider 
+    script(src='js/jquery.easing.js')
+    script(src='js/lof-slider.js')
+    link(rel='stylesheet', href='css/lof-slider.css', media='all')
+    //
+       ENDS slider 
+    //
+       Tweet 
+    link(rel='stylesheet', href='css/jquery.tweet.css', media='all')
+    script(src='js/tweet/jquery.tweet.js')
+    //
+       ENDS Tweet 
+    //
+       superfish 
+    link(rel='stylesheet', media='screen', href='css/superfish.css')
+    script(src='js/superfish-1.4.8/js/hoverIntent.js')
+    script(src='js/superfish-1.4.8/js/superfish.js')
+    script(src='js/superfish-1.4.8/js/supersubs.js')
+    //
+       ENDS superfish 
+    //
+       prettyPhoto 
+    script(src='js/prettyPhoto/js/jquery.prettyPhoto.js')
+    link(rel='stylesheet', href='js/prettyPhoto/css/prettyPhoto.css', media='screen')
+    //
+       ENDS prettyPhoto 
+    //
+       poshytip 
+    link(rel='stylesheet', href='js/poshytip-1.1/src/tip-twitter/tip-twitter.css')
+    link(rel='stylesheet', href='js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css')
+    script(src='js/poshytip-1.1/src/jquery.poshytip.min.js')
+    //
+       ENDS poshytip 
+    //
+       JCarousel 
+    script(type='text/javascript', src='js/jquery.jcarousel.min.js')
+    link(rel='stylesheet', media='screen', href='css/carousel.css')
+    //
+       ENDS JCarousel 
+    //
+       GOOGLE FONTS 
+    link(href='http://fonts.googleapis.com/css?family=Voltaire', rel='stylesheet', type='text/css')
+    //
+       modernizr 
+    script(src='js/modernizr.js')
+    //
+       SKIN 
+    link(rel='stylesheet', media='all', href='css/skin.css')
+    //
+       Less framework 
+    link(rel='stylesheet', media='all', href='css/lessframework.css')
+    //
+       jplayer 
+    link(href='player-skin/jplayer-black-and-yellow.css', rel='stylesheet', type='text/css')
+    script(type='text/javascript', src='js/jquery.jplayer.min.js')
+    //
+       flexslider 
+    link(rel='stylesheet', href='css/flexslider.css')
+    script(src='js/jquery.flexslider.js')
+  body
+    //
+       HEADER 
+    header
+      .wrapper.cf
+        #logo
+          a(href='index.html')
+            img(src='img/logo.png', alt='Simpler')
+        //
+           nav 
+        ul#nav.sf-menu
+          li
+            a(href='index.html')
+              span HOME
+          li
+            a(href='blog.html') BLOG
+          li
+            a(href='page.html') ABOUT
+            ul
+              li
+                a(href='page-elements.html') Elements
+              li
+                a(href='page-icons.html') Icons
+              li
+                a(href='page-typography.html') Typography
+          li.current-menu-item
+            a(href='portfolio.html') WORK
+          li
+            a(href='contact.html') CONTACT
+        #combo-holder
+        //
+           ends nav 
+    //
+       ENDS HEADER 
+    //
+       MAIN 
+    #main
+      .wrapper.cf
+        //
+           portfolio content
+        #portfolio-content.cf
+          //
+             project pager 
+          .project-pager.cf
+            a.previous-project(href='#') ← Previous project
+            a.next-project(href='#') Next project →
+          //
+             ENDS project pager 
+          //
+             project box 
+          #project-box.cf
+            //
+               slider 
+            .project-slider
+              .flexslider
+                ul.slides
+                  li
+                    img(src='img/dummies/slides/01.jpg', alt='alt text')
+                  li
+                    img(src='img/dummies/slides/02.jpg', alt='alt text')
+                  li
+                    img(src='img/dummies/slides/03.jpg', alt='alt text')
+            //
+               ENDS slider 
+            .info
+              p
+                strong Client 
+                | Mr. Tanaka
+              p
+                strong Date 
+                | April 25, 2012
+              p
+                a.launch(href='http://www.luiszuno.com') Launch Project
+            //
+               entry-content 
+            .entry-content
+              h2.heading Project Name
+              .multicolumn
+                p
+                  | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                p
+                  | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                p
+                  | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+            //
+               ENDS entry content 
+          //
+             ENDS project box 
+          //
+             related 
+          .related-projects
+            h4.related-heading Related projects
+            .related-list.cf
+              figure
+                a.thumb(href='#')
+                  img(src='img/dummies/slides/01.jpg', alt='Alt text')
+                a.heading(href='single.html') Pellentesque habitant morbi
+              figure
+                a.thumb(href='#')
+                  img(src='img/dummies/slides/02.jpg', alt='Alt text')
+                a.heading(href='single.html') Pellentesque habitant morbi
+              figure
+                a.thumb(href='#')
+                  img(src='img/dummies/slides/03.jpg', alt='Alt text')
+                a.heading(href='single.html') Pellentesque habitant morbi
+              figure
+                a.thumb(href='#')
+                  img(src='img/dummies/slides/04.jpg', alt='Alt text')
+                a.heading(href='single.html') Pellentesque habitant morbi
+          //
+             ENDS related 
+        //
+           ENDS portfolio content
+      //
+         ENDS WRAPPER 
+    //
+       ENDS MAIN 
+    //
+       FOOTER 
+    footer
+      .wrapper.cf
+        //
+           widgets 
+        ul.widget-cols.cf
+          li.first-col
+            .widget-block
+              h4 RECENT POSTS
+              .recent-post.cf
+                a.thumb(href='#')
+                  img(src='img/dummies/54x54.gif', alt='Post')
+                .post-head
+                  a(href='#') Pellentesque habitant morbi senectus
+                  span  March 12, 2011
+              .recent-post.cf
+                a.thumb(href='#')
+                  img(src='img/dummies/54x54.gif', alt='Post')
+                .post-head
+                  a(href='#') Pellentesque habitant morbi senectus
+                  span  March 12, 2011
+              .recent-post.cf
+                a.thumb(href='#')
+                  img(src='img/dummies/54x54.gif', alt='Post')
+                .post-head
+                  a(href='#') Pellentesque habitant morbi senectus
+                  span  March 12, 2011
+          li.second-col
+            .widget-block
+              h4 ABOUT
+              p
+                | Folder it's completely free this means you don't have to pay anything
+                a(href='http://luiszuno.com/blog/license', tar='tar') read license
+                | .
+              p
+                | Visit
+                a(href='http://templatecreme.com/') Template Creme
+                | and find the most beautiful free templates up to date.
+          li.third-col
+            .widget-block
+              #tweets.footer-col.tweet
+                h4 TWITTER WIDGET
+          li.fourth-col
+            .widget-block
+              h4 CATEGORIES
+              ul
+                li.cat-item
+                  a(href='#') Design
+                li.cat-item
+                  a(href='#') Photo
+                li.cat-item
+                  a(href='#') Art
+                li.cat-item
+                  a(href='#') Game
+                li.cat-item
+                  a(href='#') Film
+                li.cat-item
+                  a(href='#') TV
+        //
+           ENDS widgets 
+        //
+           bottom 
+        .footer-bottom
+          .left
+            | by
+            a(href='http://luiszuno.com') luiszuno.com
+          ul#social-bar.cf.sb
+            li
+              a.facebook(href='http://www.facebook.com', title='Become a fan') Facebbok
+            li
+              a.twitter(href='http://www.twitter.com', title='Follow my tweets')
+            li
+              a.plus(href='http://plus.google.com', title='Enter my circles')
+        //
+           ENDS bottom 
+    //
+       ENDS FOOTER 
