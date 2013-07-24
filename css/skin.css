@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 body {
   color: #656360;
 /*background: #f1ede8 url(../img/noise-all.png)*/
+=======
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* Colors and backgrounds  ----------------------------------------------------*/body {
+  color: #656360;
+  background: #f1ede8 url(../img/noise-all.png);
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 body a:hover {
   color: #cb5432;
@@ -12,6 +18,10 @@ header,
 footer {
   background: #2d2d2d;
 }
+<<<<<<< HEAD
+=======
+/* Selection colours (easy to forget) */
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 ::selection {
   background: #cb5432;
 }
@@ -29,8 +39,14 @@ body {
 }
 #headline,
 .masthead {
+<<<<<<< HEAD
   color: #444;
 }
+=======
+  color: #444444;
+}
+/* NAVIGATION ------------------------------------------------------------*/
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 #nav > li > a {
   color: #dcd2be;
 }
@@ -55,6 +71,7 @@ body {
   background: #f8f5f2;
 }
 #nav .sfHover ul li a {
+<<<<<<< HEAD
   color: #444;
 }
 #nav .sfHover ul li a:hover {
@@ -63,13 +80,30 @@ body {
 }
 .multiplebgs #main {
   background-image: url("../img/main-bg.png"), url("../img/main-bg.png");
+=======
+  color: #444444;
+}
+#nav .sfHover ul li a:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #cb5432;
+}
+/* MAIN ------------------------------------------------------------*/
+.multiplebgs #main {
+  background-image: url(../img/main-bg.png), url(../img/main-bg.png);
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
   background-repeat: repeat-x, repeat-x;
   background-position: bottom left, top left;
 }
 .no-multiplebgs #main {
+<<<<<<< HEAD
   background: #f1f1f1 url("../img/main-bg.png") repeat-x top left;
 }
 #filter-buttons li a {
+=======
+  background: #f1f1f1 url(../img/main-bg.png) repeat-x top left;
+}
+/* FILTERED ITEMS ----------------------------------------------------*/#filter-buttons li a {
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
   color: #444;
   border-bottom: 2px solid transparent;
 }
@@ -81,28 +115,47 @@ body {
   background: #f8f5f2;
 }
 #filter-container figure .thumb {
+<<<<<<< HEAD
   background: #cb5432 url("../img/icon-link.png") center center no-repeat;
 }
 #filter-container figure figcaption .heading {
   color: #444;
+=======
+  background: #cb5432 url(../img/icon-link.png) center center no-repeat;
+}
+#filter-container figure figcaption .heading {
+  color: #444444;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 #filter-container figure figcaption .heading:hover {
   color: #cb5432;
 }
 #filter-container figure .readmore {
+<<<<<<< HEAD
   color: #444;
+=======
+  color: #444444;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 #filter-container figure .readmore:hover h5 {
   color: #cb5432;
 }
+<<<<<<< HEAD
 #portfolio-content #filter-container a {
+=======
+/* PORTFOLIO ----------------------------------------------------*/#portfolio-content #filter-container a {
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
   color: #888;
 }
 #portfolio-content #filter-container a:hover {
   color: #cb5432;
 }
 #portfolio-content .project-pager a {
+<<<<<<< HEAD
   color: #444;
+=======
+  color: #444444;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 #portfolio-content .project-pager a:hover {
   color: #cb5432;
@@ -114,13 +167,20 @@ body {
   color: #f1f1f1;
   background: #cb5432;
 }
+<<<<<<< HEAD
 .related-projects figure .heading {
   color: #444;
+=======
+/* RELATED PROJECTS ---------------------------------------------------*/
+.related-projects figure .heading {
+  color: #444444;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 .related-projects figure .heading:hover {
   color: #cb5432;
 }
 .related-projects figure .thumb {
+<<<<<<< HEAD
   background: #cb5432 url("../img/icon-link.png") no-repeat center center;
 }
 #map-holder {
@@ -128,13 +188,27 @@ body {
 }
 #posts-list article .box {
   background: #f8f5f2 url("../img/meta-bg.png") repeat-y top right;
+=======
+  background: #cb5432 url(../img/icon-link.png) no-repeat center center;
+}
+/* CONTACT  ----------------------------------------------------*/#map-holder {
+  background: #f8f5f2;
+}
+/* BLOG ------------------------------------------------------------*/
+#posts-list article .box {
+  background: #f8f5f2 url(../img/meta-bg.png) repeat-y top right;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 #posts-list article .box .entry-date {
   color: #dcd2be;
   background: #2d2d2d;
 }
 #posts-list article .box .excerpt .post-heading {
+<<<<<<< HEAD
   color: #444;
+=======
+  color: #444444;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 #posts-list article .box .excerpt .post-heading:hover {
   color: #cb5432;
@@ -153,32 +227,59 @@ body {
   color: #cb5432;
 }
 #posts-list article.format-standard .feature-image {
+<<<<<<< HEAD
   background: #cb5432 url("../img/icon-link.png") no-repeat center center;
 }
 #posts-list article.format-image .feature-image {
   background: #cb5432 url("../img/icon-popup.png") no-repeat center center;
+=======
+  background: #cb5432 url(../img/icon-link.png) no-repeat center center;
+}
+#posts-list article.format-image .feature-image {
+  background: #cb5432 url(../img/icon-popup.png) no-repeat center center;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 body.single #posts-list article {
   background: #f8f5f2;
 }
 body.single #posts-list .box .meta {
+<<<<<<< HEAD
   background: #f8f5f2 url("../img/meta-bg-vertical.png") repeat-x top right;
 }
 #main .page-navigation a {
   color: #444;
+=======
+  background: #f8f5f2 url(../img/meta-bg-vertical.png) repeat-x top right;
+}
+/* PAGE NAVIGATION ------------------------------------------------------------*/
+#main .page-navigation a {
+  color: #444444;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 #main .page-navigation a:hover {
   color: #cb5432;
 }
+<<<<<<< HEAD
+=======
+/* SIDEBAR ------------------------------------------------------------*/
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 #sidebar .cat-item a .post-counter,
 #sidebar .page_item a .post-counter {
   color: #656360;
 }
+<<<<<<< HEAD
 .lof-slidecontent .slider-description {
   color: #e6e6e6;
 }
 .lof-slidecontent .slider-description a {
   color: #fff;
+=======
+/* SLIDER ----------------------------------------------------*/.lof-slidecontent .slider-description {
+  color: #e6e6e6;
+}
+.lof-slidecontent .slider-description a {
+  color: #FFF;
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
 }
 .lof-slidecontent .slider-description a.readmore {
   color: #fcb019;
@@ -186,7 +287,11 @@ body.single #posts-list .box .meta {
 .lof-slidecontent .active {
   border-top: 3px #cb5432 solid;
 }
+<<<<<<< HEAD
 footer {
+=======
+/* FOOTER ----------------------------------------------------*/footer {
+>>>>>>> a4970debb5da00f8bec4265be30499b7259bd518
   color: #dcd2be;
 }
 footer h4 {
