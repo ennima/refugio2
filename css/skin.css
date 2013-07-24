@@ -1,6 +1,6 @@
-/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* Colors and backgrounds  ----------------------------------------------------*/body {
+body {
   color: #656360;
-  background: #f1ede8 url(../img/noise-all.png);
+/*background: #f1ede8 url(../img/noise-all.png)*/
 }
 body a:hover {
   color: #cb5432;
@@ -12,7 +12,6 @@ header,
 footer {
   background: #2d2d2d;
 }
-/* Selection colours (easy to forget) */
 ::selection {
   background: #cb5432;
 }
@@ -30,9 +29,8 @@ body {
 }
 #headline,
 .masthead {
-  color: #444444;
+  color: #444;
 }
-/* NAVIGATION ------------------------------------------------------------*/
 #nav > li > a {
   color: #dcd2be;
 }
@@ -57,22 +55,21 @@ body {
   background: #f8f5f2;
 }
 #nav .sfHover ul li a {
-  color: #444444;
+  color: #444;
 }
 #nav .sfHover ul li a:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0,0,0,0.8);
   color: #cb5432;
 }
-/* MAIN ------------------------------------------------------------*/
 .multiplebgs #main {
-  background-image: url(../img/main-bg.png), url(../img/main-bg.png);
+  background-image: url("../img/main-bg.png"), url("../img/main-bg.png");
   background-repeat: repeat-x, repeat-x;
   background-position: bottom left, top left;
 }
 .no-multiplebgs #main {
-  background: #f1f1f1 url(../img/main-bg.png) repeat-x top left;
+  background: #f1f1f1 url("../img/main-bg.png") repeat-x top left;
 }
-/* FILTERED ITEMS ----------------------------------------------------*/#filter-buttons li a {
+#filter-buttons li a {
   color: #444;
   border-bottom: 2px solid transparent;
 }
@@ -84,28 +81,28 @@ body {
   background: #f8f5f2;
 }
 #filter-container figure .thumb {
-  background: #cb5432 url(../img/icon-link.png) center center no-repeat;
+  background: #cb5432 url("../img/icon-link.png") center center no-repeat;
 }
 #filter-container figure figcaption .heading {
-  color: #444444;
+  color: #444;
 }
 #filter-container figure figcaption .heading:hover {
   color: #cb5432;
 }
 #filter-container figure .readmore {
-  color: #444444;
+  color: #444;
 }
 #filter-container figure .readmore:hover h5 {
   color: #cb5432;
 }
-/* PORTFOLIO ----------------------------------------------------*/#portfolio-content #filter-container a {
+#portfolio-content #filter-container a {
   color: #888;
 }
 #portfolio-content #filter-container a:hover {
   color: #cb5432;
 }
 #portfolio-content .project-pager a {
-  color: #444444;
+  color: #444;
 }
 #portfolio-content .project-pager a:hover {
   color: #cb5432;
@@ -117,29 +114,27 @@ body {
   color: #f1f1f1;
   background: #cb5432;
 }
-/* RELATED PROJECTS ---------------------------------------------------*/
 .related-projects figure .heading {
-  color: #444444;
+  color: #444;
 }
 .related-projects figure .heading:hover {
   color: #cb5432;
 }
 .related-projects figure .thumb {
-  background: #cb5432 url(../img/icon-link.png) no-repeat center center;
+  background: #cb5432 url("../img/icon-link.png") no-repeat center center;
 }
-/* CONTACT  ----------------------------------------------------*/#map-holder {
+#map-holder {
   background: #f8f5f2;
 }
-/* BLOG ------------------------------------------------------------*/
 #posts-list article .box {
-  background: #f8f5f2 url(../img/meta-bg.png) repeat-y top right;
+  background: #f8f5f2 url("../img/meta-bg.png") repeat-y top right;
 }
 #posts-list article .box .entry-date {
   color: #dcd2be;
   background: #2d2d2d;
 }
 #posts-list article .box .excerpt .post-heading {
-  color: #444444;
+  color: #444;
 }
 #posts-list article .box .excerpt .post-heading:hover {
   color: #cb5432;
@@ -158,34 +153,32 @@ body {
   color: #cb5432;
 }
 #posts-list article.format-standard .feature-image {
-  background: #cb5432 url(../img/icon-link.png) no-repeat center center;
+  background: #cb5432 url("../img/icon-link.png") no-repeat center center;
 }
 #posts-list article.format-image .feature-image {
-  background: #cb5432 url(../img/icon-popup.png) no-repeat center center;
+  background: #cb5432 url("../img/icon-popup.png") no-repeat center center;
 }
 body.single #posts-list article {
   background: #f8f5f2;
 }
 body.single #posts-list .box .meta {
-  background: #f8f5f2 url(../img/meta-bg-vertical.png) repeat-x top right;
+  background: #f8f5f2 url("../img/meta-bg-vertical.png") repeat-x top right;
 }
-/* PAGE NAVIGATION ------------------------------------------------------------*/
 #main .page-navigation a {
-  color: #444444;
+  color: #444;
 }
 #main .page-navigation a:hover {
   color: #cb5432;
 }
-/* SIDEBAR ------------------------------------------------------------*/
 #sidebar .cat-item a .post-counter,
 #sidebar .page_item a .post-counter {
   color: #656360;
 }
-/* SLIDER ----------------------------------------------------*/.lof-slidecontent .slider-description {
+.lof-slidecontent .slider-description {
   color: #e6e6e6;
 }
 .lof-slidecontent .slider-description a {
-  color: #FFF;
+  color: #fff;
 }
 .lof-slidecontent .slider-description a.readmore {
   color: #fcb019;
@@ -193,7 +186,7 @@ body.single #posts-list .box .meta {
 .lof-slidecontent .active {
   border-top: 3px #cb5432 solid;
 }
-/* FOOTER ----------------------------------------------------*/footer {
+footer {
   color: #dcd2be;
 }
 footer h4 {
